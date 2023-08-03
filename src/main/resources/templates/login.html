@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log In/Sign Up!</title>
+</head>
+<body>
+<main>
+
+<h1>Welcome!</h1>
+<form action="/login" method="POST">
+    <fieldset>
+        <legend>Log In</legend>
+        <label>username</label>
+        <input type="text" name="userName"/>
+        <label>password</label>
+        <input type="password" name="password"/>
+        <input type="submit" value="login"/>
+    </fieldset>
+</form>
+<form action="/signup" method="POST">
+    <fieldset>
+        <legend>Sign Up</legend>
+        <label>username</label>
+        <input type="text" name="userName"/>
+        <label>password</label>
+        <input type="password" name="password"/>
+        <input type="submit" value="sign up"/>
+    </fieldset>
+</form>
+</main>
+</body>
+</html>
